@@ -23,10 +23,18 @@ module.exports = function (grunt) {
                 }
             },
         },
+        uglify: {
+            my_target: {
+                files: {
+                    'js/vendor.min.js': ['bower_components/parallax.js/parallax.js']
+                }
+            }
+        },
     });
     // load all grunt tasks
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-watch');
     // the default task (running "grunt" in console) is "watch"
      grunt.registerTask('default', ['watch']);
+     grunt.loadNpmTasks('grunt-contrib-uglify');
 };
