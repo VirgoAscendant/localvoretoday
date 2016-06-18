@@ -20,7 +20,6 @@ h5 {
 }
 .sweeps-intro {
   color: #ffffff;
-  max-width: 525px;
 }
 .sweeps-intro #LVT {
   background: #ffffff;
@@ -40,10 +39,10 @@ h5 {
 .sweeps-intro-copy p {
   font-size: 40px;
   line-height: 1.2em;
+  margin-bottom: .5em;
 }
 .sweeps-info {
   background-color: rgba(0, 0, 0, 0.5);
-  max-width: 525px;
   padding: 20px 30px;
 }
 .sweeps-info ul.detail-list {
